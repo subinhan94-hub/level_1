@@ -77,26 +77,40 @@
                     <h2>혜택</h2>
                     <div class="benefit_top">
                         <p><em>1,679P</em>  적립 (WELCOME 0.1% 적립)</p>
-                        <a href="">월 279,883원 (6개월) 무이자 할부 <img src="https://cdn-icons-png.flaticon.com/128/15733/15733027.png" alt="할부 리스트"></a>
+                        <a href="#" class="interest_free">월 279,883원 (6개월) 무이자 할부 <img src="https://cdn-icons-png.flaticon.com/128/15733/15733027.png" alt="할부 리스트"></a>
+                        <!-- (위 무이자 할부 a 클릭 시 실행되는 영역) -->
+                        <div class="interest_free_installment_open">
+                            <h3>무이자 할부</h3>
+                            <p>...</p>
+                        </div><!--e : interest_free_installment_open  -->
                     </div><!-- e : benefit_top -->
                 </div> <!-- e :benefit  -->
                 <!-- 배송 -->
+                    <h2>배송</h2>
                 <div class="delivery">
                     <em>무료배송</em>
-                    <span>지금 주문 시 <em>내일출발</em><img src="https://cdn-icons-png.flaticon.com/128/7463/7463627.png" alt="내일출발"></span>
+                    <span>지금 주문 시 <em>내일출발</em><a href=""><img src="#" alt="오늘출발 정보보기"></a></span>
+                    <!-- (위) a 클릭 시 실행되는 오늘 출발 정보 -->
+                    <span class="today_info_open">
+                        <em>판매자가 '오늘출발' 을 약속한 상품입니다.</em>
+                    </span>
                     <span>일반택배</span>
                     <span>제주도/도서산간 지역 8,000원</span>
                 <!-- 브랜드 -->
                 <div class="brand_info">
                     <a href="#" class="brand_name">
-                        <div class="brand_left">
-                            <img src="https://cdn-icons-png.flaticon.com/128/16402/16402229.png" alt="">
-                        </div>
+                        <p class="brand_left">
+                            <img src="https://cdn-icons-png.flaticon.com/128/16402/16402229.png" alt="LG">
+                        </p>
                         <div class="brand_light">
-                            <em>LG전자</em><img src="https://cdn-icons-png.flaticon.com/128/14090/14090761.png" alt="">
-                            <span>브랜드</span>
+                            <div>
+                                <em>LG전자</em><img src="https://cdn-icons-png.flaticon.com/128/14090/14090761.png" alt="">
+                            </div>
+                            <p>브랜드</p>
                         </div>
-                        <div class="brand_bookmark"><img src="https://cdn-icons-png.flaticon.com/128/4218/4218997.png" alt="북마크"></div>
+                    </a>
+                    <a href="#" class="brand_favorite">
+                        <img src="https://cdn-icons-png.flaticon.com/128/4218/4218997.png" alt="북마크">
                     </a>
                 </div> <!-- e : brand_info -->
                 </div> <!-- e : delivery -->
