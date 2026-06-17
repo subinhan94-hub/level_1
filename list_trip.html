@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="마이리얼트립, 여행, 트립,">
+    <meta name="description" content="다양한 여행 혜택을 제송하는 마이리얼트립 입니다.">
+    <link rel="shortcut icon" href="https://www.flaticon.com/kr/free-icon/travel_4652340" type="image/x-icon">
+    <title>마이리얼트립</title>
+</head>
+<body>
+    <div id="tour_recommend">
+        <h1><a href="#">방콕</a><img src="https://www.flaticon.com/kr/free-icon/bottom_11600217" alt=""></h1>
+        <!-- h1>a (위) 클릭 시 나오는 메뉴 -->
+        <div class="tour_list_open">인기지역</div>
+        <!-- 투어티켓, 숙소, 패키지 고르는 카테고리 시작 -->
+        <ul class="tour_category">
+            <li class="active"><a href="#">투어 티켓</a></li>
+            <li><a href="#">숙소</a></li>
+            <li><a href="#">패키지</a></li>
+        </ul>
+        <!-- 투어 티켓 클릭 시 나오는 내용 시작 -->
+        <ol class="tour_list" tour_ticket><!-- class="공통명 개별명" -->
+            <li>
+                <a href="#">
+                    <p class="them"><img src="" alt=""></p>
+                    <p class="num">1</p>
+                    <div class="name_price">
+                        <h2>[벨럭]방콕 공항 짐배송</h2>
+                        <p class="price">12,500원</p>
+                    </div>
+                </a>
+            </li><!-- (위) li*6 반복 -->
+        </ol>
+        <!-- 투어 티켓, 숙소, 패키지 공통 정보 시작 -->
+        <div class="trip_info_qa">
+            <a href="">어떤 기준으로</a>
+            <img src="https://www.flaticon.com/kr/free-icon/info_7463627" alt="">
+        </div>
+        <!-- (위) 질문 클릭 시 열리는 정보 시작 -->
+        <div class="trip_info_qa_open">
+            <div class="">
+                <h2>마이리얼트립 추천</h2>
+                <a href="#" class="close_btn">x</a>
+            </div>
+            <p>여행자 인기도 (판매량, 판매금액, 조회수, 클릭수, 리뷰수 등), 상품 경쟁력, 상품 카테고리, 상품 추천도 등을 종합적으로 반영한 순위이며, 본 순위는 실제 판매량 순위와 일치하지 않을 수 있어요.</p>
+        </div>
+    </div>
+    <!-- 마이리얼트립 > 국내항공 > 단톡특가 -->
+    <div class="trip_a special price">
+        <div class="trip_name">
+            <div class="title">
+                <h2><img src="" alt="">딱 일주일만 진에어 단독특가</h2>
+                <p class="d-day">D-4</p>
+                <p class="timeline">11:57:36</p>
+            </div>
+        </div>
+        <ul class="trip_list">
+            <li>
+                <a href="#">
+                    <p class="them"><img src="" alt=""></p>
+                    <h3>김포->제주</h3>
+                    <p class="price">118,800원</p>
+                </a>
+            </li><!-- (위) li*6 반복 -->
+        </ul>
+        <div class="trip_name">
+            <div class="title">
+                <h2><img src="" alt="">6월, 성수기 전에 잡으세요</h2>
+            </div>
+        </div>
+        <ul class="trip_list2">
+            <li>
+                <a href="#">
+                    <p class="them"><img src="" alt=""></p>
+                    <h3>김포->제주</h3>
+                    <p class="price">49,000원</p>
+                </a>
+            </li><!-- (위) li*6 반복 -->
+        </ul>
+    </div>
+    <!-- 패키지 여행 -->
+    <div id="Package_alarm_wrap">
+        <div class=""><p class="d_day">6월 17일 (수) 19시 오픈</p></div>
+        <div class="title_alarm">
+                <h2>나트랑에어텔 초특가!<hr>우리끼리 즐기는 풀빌라</h2>
+                <a href="#"><img src="https://www.flaticon.com/kr/free-icon/alarm-bell_6367716" alt="">알림 받기</a>
+        </div>
+        <ul class="package_contnets_list">
+            <li>
+                <a href="">
+                    <p class="them"><img src="" alt=""></p>
+                    <div class="info">
+                        <h2>[인천출발]나트랑자유여행3박5일 #멜리아빈펄깜란롱비치#2-4베드풀빌라#조식포함#공항픽업</h2>
+                        <p class="price_open"><span class="open_notice">오픈예정</span> 649,000원부터</p>
+                        <p class="point_save"><!-- 의미가 있는 경우 따로 태그를 적용해야 한다. -->
+                            <img src="" alt="카카오페이">
+                            <span class="max">최대 32,450원 적립</span>
+                        </p>
+                    </div>
+                </a>
+            </li><!-- li*4 -->
+        </ul>
+        <a href="#" class="live_preview_btn"><p>라이브 혜택 미리보기<img src="" alt=""></p></a>
+    </div>
+</body>
+</html>
